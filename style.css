@@ -1,0 +1,127 @@
+
+body {
+    margin: 0 auto; 
+    height: 100%;
+    background-image: url(Img/background.jpg);
+    background-size:cover;
+    font-family: MedievalSharp;
+    border-radius: 0px 0px 50px 50px;
+    
+}    
+
+::-webkit-scrollbar-thumb {
+    background-color: #d8bc86;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+} 
+
+::-webkit-scrollbar-track {
+    background-color: #d8bc86;
+}
+
+#top {
+    margin: 2%  auto;
+    background-size:cover; 
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#top h1 {
+    margin-bottom: 5%;
+    color: #d8bc86;
+    font-weight: bold;
+    font-size: 90px;
+    font-family: MedievalSharp;
+    border-radius: 15px;
+    
+}
+
+.text-container {
+    margin-bottom: 0%;
+}
+
+.text-container textarea{ /* img */
+    margin: 0 auto;
+    background-image: url(Img/background-2.jpg);
+    height: 500PX;
+    width: 50%;
+    margin-left: 25%;
+    margin-top:10%;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 26px 30px 16px rgba(0,0,0,0.75);
+    outline: none;
+}
+
+.text-container textarea { /* txt */
+    font-weight: 700;
+    font-size: 30px;
+    resize: none;
+    text-align: center;
+    color: rgb(66, 44, 11);
+    font-family: MedievalSharp;
+    padding-top: 40px;
+    scrollbar-width: none;
+}
+
+.text-container ::placeholder {
+    color: rgb(66, 44, 11);
+}
+
+.text-container button { /*botão Salvar*/
+    background-image: url(Img/background-2.jpg);
+    background-size: cover;
+    font-family: MedievalSharp;
+}
+
+.accordion { /*distancia dos botões*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.accordion-button /*botão */{
+    max-width: 25%;
+    background-image: url(Img/background-2.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    font-family: MedievalSharp;
+    padding-right: 20px;
+    color: rgb(66, 44, 11);
+
+}
+
+.accordion-body { /*quando abre o botão*/
+    background-image: url(Img/background-2.jpg);
+    background-size: cover;
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    color: rgb(66, 44, 11);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.01%;
+    padding-bottom: 1%;
+    font-family: MedievalSharp;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.button-roll {
+    margin: 5% auto;
+    background-size: cover;
+    background-image: url(Img/background-2.jpg);
+    color: rgb(66, 44, 11);
+}   
+
+#resultDice {
+    max-height: 130px;
+    margin-bottom: 130px;
+    padding-top: 5%;
+    color: rgb(66, 44, 11);
+}
