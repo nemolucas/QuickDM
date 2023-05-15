@@ -3,7 +3,7 @@ body {
     margin: 0 auto; 
     height: 100%;
     width: auto;
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
     background-size:100%;
     background-repeat: no-repeat;
     font-family: MedievalSharp;
@@ -15,7 +15,7 @@ body {
     body {
         height: 100%;
         background-size: 100%;
-        background-image: url(/img/background\ -1366.jpg);
+        background-image: url(img/background\ -1366.jpg);
     }
    
 }
@@ -57,7 +57,7 @@ body {
 
 .text-container textarea{ /* img */
     margin: 0 auto;
-    background-image: url(/img/background-2.jpg);
+    background-image: url(img/background-2.jpg);
     height: 300PX;
     width: 50%;
     margin-left: 25%;
@@ -84,7 +84,7 @@ body {
 }
 
 .text-container button { /*botão Salvar*/
-    background-image: url(/img/background-2.jpg);
+    background-image: url(img/background-2.jpg);
     background-size: cover;
     font-family: MedievalSharp;
 }
@@ -97,7 +97,7 @@ body {
 
 .accordion-button /*botão */{
     max-width: 25%;
-    background-image: url(/img/background-2.jpg);
+    background-image: url(img/background-2.jpg);
     background-size: cover;
     margin: 0 auto;
     font-family: MedievalSharp;
@@ -107,7 +107,7 @@ body {
 }
 
 .accordion-body { /*quando abre o botão*/
-    background-image: url(/img/background-2.jpg);
+    background-image: url(img/background-2.jpg);
     background-size: cover;
     max-width: 25%;
     display: flex;
@@ -126,7 +126,7 @@ body {
 .button-roll {
     margin: 5% auto;
     background-size: cover;
-    background-image: url(/img/background-2.jpg);
+    background-image: url(img/background-2.jpg);
     color: rgb(66, 44, 11);
 }   
 
@@ -143,7 +143,7 @@ body {
     height: 35px;
     width: 100%;
     margin-top: auto;
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
     background-size: cover;
 }
 
