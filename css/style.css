@@ -3,7 +3,7 @@ body {
     margin: 0 auto; 
     height: 100%;
     width: auto;
-    background-image: url(img/background.jpg);
+    background-image: url(/img/background.jpg);
     background-size:100%;
     background-repeat: no-repeat;
     font-family: MedievalSharp;
