@@ -2,7 +2,7 @@
   body {
     height: 100%;
     width: auto;
-    background-image: url(/img/background-mobile.jpg);
+    background-image: url(img/background-mobile.jpg);
     background-size:  100%;;
     background-repeat: repeat;
     font-family: MedievalSharp;
@@ -41,7 +41,7 @@
     height: 30px;
     width: 100%;
     margin-top: 37%;
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
     background-size: cover;
 }
 
@@ -55,7 +55,7 @@
 
 .accordion-button /*botão */{
   max-width: 75%;
-  background-image: url(/img/background-2.jpg);
+  background-image: url(img/background-2.jpg);
   background-size: cover;
   margin: 0 auto;
   font-family: MedievalSharp;
