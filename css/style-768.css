@@ -1,0 +1,69 @@
+@media screen and (max-width: 800px) {
+  body {
+    height: 100%;
+    width: auto;
+    background-image: url(Img/background-mobile.jpg);
+    background-size:  100%;;
+    background-repeat: repeat;
+    font-family: MedievalSharp;
+    border-radius: 0px 0px 50px 50px;
+    
+}    
+ 
+#top {
+  margin: 2%  auto;
+  background-size:cover; 
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+
+    #top h1 {
+      font-size: 35px;
+    }
+  
+    .text-container textarea {
+      height: 200px;
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 2%;
+    }
+  
+    .text-container textarea,
+    .accordion-button,
+    .accordion-body {
+      max-width: 100%;
+    }
+.footer {
+    
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    margin-top: 37%;
+    background-image: url(/Img/background.jpg);
+    background-size: cover;
+}
+
+.footer p {
+    color: #d8bc86;
+    font-size: 15px;
+    padding-top: 0.3%;
+    text-align: center;
+    font-family: MedievalSharp;
+}
+
+.accordion-button /*botão */{
+  max-width: 75%;
+  background-image: url(Img/background-2.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  font-family: MedievalSharp;
+  padding-right: 20px;
+  color: rgb(66, 44, 11);
+
+}
+
+.accordion-body { /*quando abre o botão*/
+  max-width: 75%; }
+}
