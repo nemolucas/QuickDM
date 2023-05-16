@@ -41,7 +41,7 @@
     height: 30px;
     width: 100%;
     margin-top: 37%;
-    background-image: url(/QuickDMimg/background.jpg);
+    background-image: url(/Quick/DMimg/background.jpg);
     background-size: cover;
 }
 
@@ -55,7 +55,7 @@
 
 .accordion-button /*botão */{
   max-width: 75%;
-  background-image: url(/QuickDMimg/background-2.jpg);
+  background-image: url(/Quick/DMimg/background-2.jpg);
   background-size: cover;
   margin: 0 auto;
   font-family: MedievalSharp;
